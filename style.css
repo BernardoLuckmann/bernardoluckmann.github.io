@@ -33,3 +33,53 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+
+.info:hover {
+    color: #6e6e6e;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+    
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 7.5px 1px #8d8d8d;
+    padding: 1%;
+    margin: 1%;
+}
+
+.aboutme-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5%;
+}
+
+.aboutme-info img {
+    width: 190px;
+    height: 200px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 7.5px 1px #8d8d8d;
+}
+
+.aboutme-info p {
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 7.5px 1px #8d8d8d;
+    padding: 1%;
+    margin: 1%;
+}
+
